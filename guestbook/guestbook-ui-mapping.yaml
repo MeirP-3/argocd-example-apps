@@ -2,7 +2,7 @@ metadata:
   namespace: argocd
   name: guestbook
 spec:
-  prefix: guestbook
+  prefix: /guestbook/
   service: guestbook-ui
 kind: Mapping
 apiVersion: getambassador.io/v2
